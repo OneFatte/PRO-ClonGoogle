@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+}
+
+/* Estilos del header ....................*/
+.contenedor header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header .btn-head {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-right: 4px;
+}
+
+.btn-head .btn-head1 {
+    height: 24px;
+    padding: 0px 15px;
+    font: 15px/28px Arial, sans-serif;
+    text-decoration: none;
+}
+
+.btn-head .btn-head1:visited {
+    color: rgb(56, 56, 56);
+}
+
+.btn-head .btn-head2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    height: 40px;
+    width: 40px;
+}
+
+.btn-head2 img {
+    height: 16px;
+}
+
+.btn-head2 .btn-cuenta {
+    height: 36px;
+}
+
+/* Estilos del main  ....................*/
+.contenedor main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 10px;
+    margin: 5px;
+    height: 100vh;
+}
+
+main .logo {
+    height: 154px;
+}
+
+.logo img {
+    height: 154px;
+}
+
+main .barra {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    border: 1px solid #DFE1E5;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 42px;
+    width: 580px;
+    padding: 5px;
+}
+
+main .barra:hover {
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.barra .barra1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.barra .barra2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.barra1 img {
+    padding: 5px;
+    opacity: 0.5;
+}
+
+.barra1 input {
+    outline: none;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+.barra2 img {
+    margin-right: 5px;
+    padding: 2px;
+
+}
+
+main .btn-buscar {
+    display: flex;
+    justify-content: center;
+    color: #70757a;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+
+main .btn-buscar .btn-buscar1 {
+    display: flex;
+    justify-content: center;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.btn-buscar .btn-buscar1 a {
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn-buscar1 a:visited {
+    color: #70757a;
+}
+
+.btn-buscar1 a:hover {
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Estilos del footer ....................*/
+.contenedor footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer .pais {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #70757a;
+}
+
+footer .btn-foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.btn-foot .btn-foot1 {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    color: #70757a;
+}
+
+.btn-foot .btn-foot1 .btn-foot2 {
+    padding: 15px;
+}
